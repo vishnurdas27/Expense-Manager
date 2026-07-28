@@ -1,5 +1,5 @@
 import bcrypt from 'bcrypt'
-import prisma from '../../lib/prisma'
+import prisma from '../../lib/prisma.js'
 
 
 export async function registerUser(name,email,password) {
